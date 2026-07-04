@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Desafío 2 - Condicion</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <section id="ejercicio1">
+    <h1>Ejercicio 1 - Borde con click</h1>
+    <p>Haz click en la imagen para agregar el borde rojo. </p>
+    <p>Haz click de nuevo para quitarlo.</p>
+    <img id="imagen" src="https://picsum.photos/300/200" alt="Imagen aleatoria">
+  </section>
+
+  <section id="ejercicio2">
+      <h1>Ejercicio 2 - Stickers</h1>
+      <p>Puedes llevar hasta 10 stickers en total</p>
+      <div class="contenedor2">
+        <div class="sticker">
+          <img src="./assets/img/github.png" alt="GitHub logo" width="50">
+          <input type="number" id="sticker1" min="0" placeholder="0">
+        </div>
+        <div class="sticker">
+          <img src="./assets/img/javascript.png" alt="Sticker javascript" width="50">
+          <input type="number" id="sticker2" min="0" placeholder="0">
+        </div>
+        <div class="sticker">
+          <img src="./assets/img/git.png" alt="Sticker Git" width="50">
+          <input type="number" id="sticker3" min="0" placeholder="0">
+        </div>
+      </div>
+      <br>
+      <button id="btnVerificar">Verificar</button>
+      <p id="resultado"></p>
+  </section>
+
+  <section id="ejercicio3">
+    <h1>Ejercicio 3 - Ingrese Password</h1>
+    <div class="contenedor3">
+        <select id="select1"></select>
+        <select id="select2"></select>
+        <select id="select3"></select>
+    </div>
+    <button id="btnIngresar">Ingresar</button>
+    <p id="resultado3"></p>
+  </section>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>

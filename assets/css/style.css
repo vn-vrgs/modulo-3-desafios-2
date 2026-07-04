@@ -1,0 +1,110 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+  background-color: blue;
+  color: white;  
+}
+
+p {
+  background-color: blue;
+  color: white;  
+}
+
+img {
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+section {
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.contenedor2 {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.sticker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sticker img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+input {
+    background-color: cyan;
+    color: black;
+    width: 60px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#resultado {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.contenedor3 {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+select {
+    background-color: cyan;
+    color: black;
+    font-size: 18px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto 0;
+    padding: 6px 16px;
+}
+
+#resultado3 {
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
